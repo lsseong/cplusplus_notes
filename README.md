@@ -1,6 +1,12 @@
 # cplusplus_notes
 
- C11 initialization - https://stackoverflow.com/questions/20603403/c11-variable-initialization-and-declaration
+Fixed witdh integer types - https://en.cppreference.com/w/cpp/types/integer
+```
+std::uint32_t
+```
+
+
+C11 initialization - https://stackoverflow.com/questions/20603403/c11-variable-initialization-and-declaration
 
 ```
 int x{0}; // new style
