@@ -1,8 +1,11 @@
 # cplusplus_notes
 
-int x{0} vs int x = 9 - https://stackoverflow.com/questions/20603403/c11-variable-initialization-and-declaration
+ C11 initialization - https://stackoverflow.com/questions/20603403/c11-variable-initialization-and-declaration
 
-
+```
+int x{0}; // new style
+int x = 0; 
+```
 
 The first const refers to stored int value (i.e. cannot change value), the second const refers to int address (i.e. cannot change address)
 ```
